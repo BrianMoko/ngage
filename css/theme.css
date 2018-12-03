@@ -89,7 +89,8 @@ p {
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
-    min-height: 200px;
+    border-radius: 10px;
+    min-height: 550px;
 }
 
 .btn {
@@ -2145,7 +2146,7 @@ section {
     align-items: center;
     margin-top:30px;
    
-    padding: 0 35px;
+    padding: 0 95px;
 }
 
 @media (max-width: 991px) {
