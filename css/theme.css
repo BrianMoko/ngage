@@ -90,9 +90,12 @@ p {
     -moz-border-radius: 3px;
     border-radius: 3px;
     border-radius: 10px;
-    min-height: 550px;
+    min-height: 200px;
 }
 
+.cardminheight {
+    min-height: 550px;
+}
 .btn {
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
