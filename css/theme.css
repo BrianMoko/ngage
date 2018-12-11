@@ -14668,3 +14668,45 @@ section {
 .vue-lists ul, .vue-lists ol {
     padding-left: 30px;
 }
+
+.positioningstatement
+{
+    padding: 50px;
+    background-color: #568abc;
+    text-align: center;
+    height: 200px;
+    color: white!important;
+}
+
+
+
+
+
+
+
+
+
+/********* Simple or original overlay *******/
+/* Main container */
+.overlay-image {
+    position: relative;
+    width: 100%;
+   }
+   /* Original image */
+   .overlay-image .image {
+    display: block;
+    width: 100%;
+    height: auto;
+   }
+   /* Original text overlay */
+   .overlay-image .text {
+    color: #171717;
+    font-size: 20px;
+    line-height: 1.5em;
+   
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+   }
